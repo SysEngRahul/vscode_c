@@ -1,0 +1,49 @@
+# ===== C source control hygiene =====
+
+# Compiled executables
+a.out
+*.out
+*.exe
+*.bin
+*.elf
+primenum
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Build directories
+build/
+bin/
+dist/
+cmake-build-*/
+
+# CMake / Make
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Debug & temp
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
