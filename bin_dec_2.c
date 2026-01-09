@@ -17,6 +17,6 @@ int main()
     }
     printf("decimal : %d\n", dec);
     return 0;
-    
 
-}
+
+}           
