@@ -1,0 +1,74 @@
+# Project File Descriptions
+
+## 🔹 Banking System
+
+* bankingsystem.c → Core C program implementing basic banking operations (create account, deposit, withdraw)
+* bankingsystem → Compiled binary of banking system
+* accounts.dat → Binary data file storing account records
+* accounts.txt → Text-based account logs / backup
+
+---
+
+## 🔹 Data Structures & Algorithms
+
+* arr_ins.c → Insert element into array (basic logic)
+* arr_insert2.c → Alternative array insertion method
+* arr_insertion.c → Improved insertion logic with shifting
+* multi_insert_arr.c → Multiple insert operations in array
+* bubble.c → Bubble sort implementation
+* quick_sort.c → Quick sort algorithm implementation
+
+---
+
+## 🔹 Number & Logic Programs
+
+* prime1ton.c → Print prime numbers from 1 to N
+* bin_dec.c → Binary to decimal conversion
+
+---
+
+## 🔹 Memory Management (VERY IMPORTANT)
+
+* malloc.c → Dynamic memory allocation using malloc
+* calloc.c → Memory allocation using calloc
+* realloc.c → Resizing memory using realloc
+* sbrk.c → Heap expansion using sbrk (low-level)
+* mmap.c → Memory mapping using mmap
+
+---
+
+## 🔹 Pointers & Memory Layout
+
+* all_pointers.c → Pointer concepts demonstration
+* mem_layout.c → Process memory layout visualization
+
+---
+
+## 🔹 System Programming
+
+* processid.c → Get process ID using system calls
+* thread_intro.c → Basic multithreading in C
+
+---
+
+## 🔹 Miscellaneous
+
+* pwd_gen.c → Random password generator
+* calci_gui.c → Calculator (possibly GUI-based)
+
+---
+
+## 🔹 Intermediate Build Files (ignored ideally)
+
+* *.i → Preprocessed files
+* *.s → Assembly output
+* binaries → compiled outputs (should be ignored via .gitignore)
+
+---
+
+## ⚠️ Notes
+
+* Only `.c` files are source code
+* Binary files should not be pushed in production repos
+* This repository demonstrates learning across C, system programming, and memory handling
+
